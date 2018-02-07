@@ -1,0 +1,85 @@
+.mynav {
+    color: #777;
+    /* margin-left: 250px; */
+    display:inline;
+    /* width: 100%; */
+    
+}
+
+.color1 { 
+    
+    color: #777;
+
+}
+
+my-image{
+    width:100%;
+}
+
+.jummar {
+    /* max-height: 100%; */
+    margin-bottom: 0;
+    padding-bottom: 0%;
+    
+}
+
+header h2 {
+
+     background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 15px 8px;
+
+}
+
+body{
+     /* width: 960px; */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url(../images/greyfloral/greyfloral.png) repeat;
+    }
+    
+    header{
+
+         background-color: white;
+        /* border: 2px solid red; used for visual cue */
+        font-family:'Georgia', Times, Times New Roman, serif;
+        border-bottom: 3px solid #cccccc;
+        
+        
+    } 
+
+    .section {
+        background: white;
+
+    }
+
+    h2{ 
+        background-color: white;
+        color: #4aaaa5;
+        text-align: center;
+        padding: 20px;
+      
+    }
+
+    ul {
+        padding-top: 25px;
+    }
+
+    .bgsection {
+
+        background-color: white;
+    }
+    .height1 {
+       height: 450px;
+    }
+    footer{
+        background-color: #666666;
+        /* height: 55px; */
+        border-top: 10px solid #4aaaa5;
+        text-align: center;
+        /* margin: 0 0; */
+        /* width: 1200px; */
+        /* border: 2px solid red; */
+        padding: 25px 0;
+    
+    } 
+    
