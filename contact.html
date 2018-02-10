@@ -9,52 +9,43 @@
 
 
     <link rel="stylesheet" href="assets/css/addstyle.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
 </head>
 
 <body>
+    <!-- modified for bootstrap -->
 
-    <div class="container-fluid">
+        <header class="navbar navbar-default">
 
-        <header class="jummar row">
-    
-            <!-- <div class="col-md-1"></div> -->
-    
-            <div class="col-md-6 pull-left">
-                <h2>Janet Warren</h2>
-            </div>
-    
-            <!-- <div class="col-md-4"></div> -->
-    
-            <div class="col-md-6 pull-right">
-    
-                    <nav class="col-md-3 mynav">
-            
-                            <ul class="nav nav-pills">
-        
-                                <li class="presentation"><a href="index.html" >About    |</a></li>
-                                <li class="presentation"><a href="portfolio.html" >Portfolio    |</a></li>
-                                <li class="presentation"><a href="contact.html">Contact</a></li>
-                            
-                            </ul>
-                   
-                    </nav>
-            </div>
-    
+                <div class="container navpad">
+
+                    <div class="navbar-header">
+ 
+                        <a class="nameplate navbar-pills pull-left" href="index.html" id="logo">Janet Warren</a>
+      
+                        <nav class="navbar-nav pull-right main">
+                          <a class="btn btn-link btn-lg navbutton" href="index.html">About</a>
+                          <a  class="btn btn-link btn-lg navbutton" href="portfolio.html">Portfolio</a>
+                          <a class="btn btn-link btn-lg navbutton" href="contact.html">Contact</a>
+                        </nav>
+
+                    </div>
+                </div>
         </header>
 
-        <section class= "container-fluid">
+
+        <section class= "container">
 
             <div class="row">
 
-                <div class="col-md-6 pull-left bgsection">
+                <div class="col-md-6 pull-left bgsection height2">
 
                         <div class="row">
 
-                             <div class="col-md-6">
+                             <div class="col-md-12 text-left">
 
-                                <h2>Contact Me</h2>
+                                <h2 class="subhead">Contact Me</h2>
 
                              </div>
 
@@ -62,34 +53,34 @@
 
                          <div class="row">
 
-                            <div class="col-md-12">
+                            <form class="col-md-12 form-group">
 
 
                                         <legend>Name</legend>
                                     
                                         <!-- <div> -->
                                     
-                                            <input class="input" type= "text" name = "Name" id= "Name" maxlength= "30"
+                                            <input class="form-control" type= "text" name = "Name" id= "Name" maxlength= "30"
                                                 size= "80%" required= "required" autofocus= "autofocus"><br>
                                                 
                                         <!-- </div> -->
 
                                         <legend>Email:</legend>
 
-                                            <input class="input" size="80%" type= "email" name = "myEmail" id= "myEmail" maxlength="125"
+                                            <input class="form-control" size="80%" type= "email" name = "myEmail" id= "myEmail" maxlength="125"
                                             required= "required" placeholder = "example.domainName.com"><br>
                                             
                                         <legend>Message:</legend>
                                     
-                                            <textarea class="msg" name= "message" size= "80%" id="message" cols= "50" rows= "5" maxlength= "200"
+                                            <textarea class="form-control" name= "message" size= "80%" id="message" cols= "50" rows= "5" maxlength= "200"
                                             placeholder= "send a message here..."></textarea><br><br>
                                         
                                 
-                                        <input class= "button" type= "submit" value= "Submit">&nbsp;&nbsp;
+                                        <input class= "button" type= "submit" value= "Submit form">&nbsp;&nbsp;
                                 
 
 
-                            </div>
+                            </form>
 
                          </div>
 
@@ -101,9 +92,9 @@
 
                     <div class="row">
 
-                        <div class="col-md-12">
+                        <div class="col-md-12 text-center">
 
-                                <h2 class="color1">Connect with Me</h2>
+                                <h2 class="subhead">Connect with Me</h2>
 
                                 <hr>
 
@@ -115,13 +106,13 @@
                     <div class="row">
 
 
-                        <div class="col-md-12">
+                        <div class="col-md-12 text-center apad">
 
-                                <a href="https://github.com/jdublu416"><img src= "assets/images/github-128.png" height= "50" width="50" alt="github icon"></a>
+                                <a class="apad" href="https://github.com/jdublu416"><img src= "assets/images/github-128.png" height= "50" width="50" alt="github icon"></a>
 
-                                <a href="https://linkedin.com/in/janet-warren-21ab759b"><img src= "assets/images/linkedin.png" alt="linked in icon" height= "50" width="50"></a>
+                                <a class="apad" href="https://linkedin.com/in/janet-warren-21ab759b"><img src= "assets/images/linkedin.png" alt="linked in icon" height= "50" width="50"></a>
             
-                                <a href="https://stackoverflow.com"><img src= "assets/images/overflow.png" alt="stacked overflow icon" height= "50" width="50"></a>
+                                <a class="apad" href="https://stackoverflow.com"><img src= "assets/images/overflow.png" alt="stacked overflow icon" height= "50" width="50"></a>
 
                         </div>
 
